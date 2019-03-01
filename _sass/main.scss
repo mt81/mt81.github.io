@@ -1,0 +1,141 @@
+@import 'normalize';
+@import 'base';
+
+
+$font-family: 'San Francisco', 'Helvetica Neue', Helvetica, sans-serif;
+$base-font-size: 13px;
+$primary-color: #2D9CDB;
+
+$primary-text-color: #222222;
+$secondary-text-color: #878787;
+
+$link-color: $primary-color;
+$link-color-visited: $primary-color;
+$link-color-active: $primary-color;
+
+html, body {
+    font-size: $base-font-size;
+    line-height: normal;
+    font-family: $font-family;
+    font-weight: 400;
+}
+
+body {
+    color: $primary-text-color;
+    background: #fefefe url(../images/alpha-background.png);
+}
+
+a:link {color: $primary-color;}
+a:visited {color:$link-color-visited;}
+a:active {color: $link-color-active;}
+
+* {
+    transition: width .25s ease-in-out;
+    transition: height .25s ease-in-out;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.46rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 0.8rem;
+    &.use-over-time {
+        font-size: 1.2857rem;
+        color: $secondary-text-color;
+        font-weight: normal;
+        margin-top: 55px;
+        margin-bottom: 15px;
+    }
+}
+
+p {
+    margin: 0;
+}
+
+ol, ul {
+    padding-left: 13px;
+}
+
+ol {
+    max-width: 600px;
+    margin-top: 12px;
+    li {
+        margin-top: 20px;
+    }
+}
+
+li {
+    padding-left: 15px;
+    
+     ul {
+        margin: 0;
+        list-style-type: disc;
+       
+        li {
+            margin-top: 10px;
+            padding-left: 0px; 
+        }
+     }
+}
+
+img {
+    max-width: 100%;
+}
+
+.phonetic {
+    font-size: 1.3846rem;
+}
+
+.main-definition {
+    margin-top: 30px;
+    font-style: italic;
+}   
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.container {
+    box-sizing: border-box;
+    min-height: 100%; 
+    width: 860px;
+    min-height: 100vh;
+    max-width: 80%;
+    min-width: 285px;
+    background: #FFFFFF;
+    margin-left: 5%;
+    padding: 15% 6.5% 6.5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.example {
+    color: $secondary-text-color;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .phonetic {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        &.use-over-time {
+            font-size: 1.2rem;
+        }
+    }
+}
