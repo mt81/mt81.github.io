@@ -13,134 +13,301 @@ $link-color: $primary-color;
 $link-color-visited: $primary-color;
 $link-color-active: $primary-color;
 
-html {
-    background: #fefefe url(../images/alpha-background.png);
-}
+$button-border: .1em;
 
-html, body {
-    font-size: $base-font-size;
-    line-height: normal;
-    font-family: $font-family;
-    font-weight: 400;
+html,
+body {
+	font-size: $base-font-size;
+	line-height: normal;
+	font-family: $font-family;
+	font-weight: 400;
 }
 
 body {
-    color: $primary-text-color;
+	color: $primary-text-color;
 }
 
-a:link {color: $primary-color;}
-a:visited {color:$link-color-visited;}
-a:active {color: $link-color-active;}
+a:link {
+	color: $primary-color;
+}
+
+a:visited {
+	color: $link-color-visited;
+}
+
+a:active {
+	color: $link-color-active;
+}
 
 * {
-    transition: width .25s ease-in-out;
-    transition: height .25s ease-in-out;
+	transition: width .25s ease-in-out;
+	transition: height .25s ease-in-out;
 }
 
-h1, h2 {
-    margin: 0;
-    padding: 0;
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-    font-size: 2.46rem;
-    font-weight: normal;
+	font-size: 2.46rem;
+	font-weight: normal;
 }
 
 h2 {
-    font-size: 0.8rem;
-    &.use-over-time {
-        font-size: 1.2857rem;
-        color: $secondary-text-color;
-        font-weight: normal;
-        margin-top: 55px;
-        margin-bottom: 15px;
-    }
+	font-size: 0.8rem;
+
+	&.use-over-time {
+		font-size: 1.2857rem;
+		color: $secondary-text-color;
+		font-weight: normal;
+		margin-top: 55px;
+		margin-bottom: 15px;
+	}
 }
 
 p {
-    margin: 0;
+	margin: 0;
 }
 
-ol, ul {
-    padding-left: 13px;
+ol,
+ul {
+	padding-left: 13px;
 }
 
 ol {
-    max-width: 85%;
-    margin-top: 12px;
-    li {
-        margin-top: 20px;
-    }
+	max-width: 85%;
+	margin-top: 12px;
+
+	li {
+		margin-top: 20px;
+	}
 }
 
 li {
-    padding-left: 15px;
-    
-     ul {
-        margin: 0;
-        list-style-type: disc;
-       
-        li {
-            margin-top: 10px;
-            padding-left: 0px; 
-        }
-     }
+	padding-left: 15px;
+
+	ul {
+		margin: 0;
+		list-style-type: disc;
+
+		li {
+			margin-top: 10px;
+			padding-left: 0px;
+		}
+	}
 }
 
 img {
-    max-width: 90%;
+	max-width: 90%;
 }
 
 .phonetic {
-    font-size: 1.3846rem;
+	font-size: 1.3846rem;
 }
 
 .main-definition {
-    margin-top: 30px;
-    font-style: italic;
-}   
+	margin-top: 30px;
+	font-style: italic;
+}
 
 .logo {
-    margin-bottom: 40px;
-    margin-left: -5.73%;
-    max-width: 105.73%;
+	margin-bottom: 1em;
+	margin-left: -5.73%;
+	max-width: 70%;
 }
 
 .container {
-    box-sizing: border-box;
-    min-height: 100%; 
-    width: 860px;
-    min-height: 100vh;
-    max-width: 80%;
-    min-width: 285px;
-    background: #FFFFFF;
-    margin-left: 5%;
-    padding: 15% 5% 5% 11.2%;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	box-sizing: border-box;
+	min-height: 100%;
+	width: 860px;
+	min-height: 100vh;
+	max-width: 80%;
+	min-width: 285px;
+	background: #FFFFFF;
+	margin-left: 5%;
+	padding: 10% 5% 5%;
 }
 
 .example {
-    color: $secondary-text-color;
-    font-style: italic;
+	color: $secondary-text-color;
+	font-style: italic;
 }
 
+.hidden {
+	opacity: 0.001;
+}
+
+.resume p,
+.resume li {
+	line-height: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+/* Styles for the container */
+.resume-button {
+	margin-top: 3em;
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Vertically aligns content */
+  gap: 8px; /* Adds space between the image and the text */
+}
+
+.resume-button img {
+    height: 1.2em;
+	width: auto; /* Maintain aspect ratio */
+	display: inline-block;
+	padding-right: 0.5em;
+}
+
+.resume-button a {
+	font-size: 1.2em;
+	display: inline-block;
+	display: flex; /* Flexbox ensures content inside the link is also aligned */
+  	align-items: center; /* Vertical alignment for the image and text */
+ 	 text-decoration: none; /* Removes underline from the link */
+  	color: inherit; /* Inherits color from the parent */
+}
+
+a, a:visited {
+	color: #000;
+	// font-weight: 500;
+	text-decoration: none;
+}
+
+.resume a {
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+
+.resume a .logo {
+	width: 50%;
+}
+
+.resume header H1 {
+	color: #000;
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+
+.resume h1 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #999;
+	margin-top: 1em;
+}
+
+.resume h3 {
+	font-weight: 700;
+}
+
+/* Base styles */
+.row {
+	display: flex;
+	flex-direction: row;
+	/* Horizontal layout by default */
+	gap: 16px;
+	/* Space between cells */
+	margin-top: 1.5em;
+}
+
+.cell {}
+
+/* Desktop/Tablet */
+.row>.cell:first-child {
+	flex: 0 0 20%;
+	/* Fixed 20% width for the first cell */
+	text-align: right;
+}
+
+.row>.cell:not(:first-child) {
+	flex: 1;
+	/* Remaining space for the other cells */
+	padding-top: 1em;
+	text-align: justify;
+}
+
+ul,
+ul ul {
+	list-style-type: "-";
+}
+
+ul li,
+ul li li {
+	padding-left: 0.8rem;
+	margin: 0;
+}
+
+
+
+
+// a.button {
+// 	display: inline-block;
+// 	position: relative;
+// 	// margin: 1em auto;
+// 	margin-top: 2rem;
+// 	border: solid $button-border;
+// 	padding: 0.5em 1.5em;
+// 	border-radius: 9em;
+// 	background: #fff;
+// 	color: #000;
+// 	text-transform: uppercase;
+// 	mix-blend-mode: darken;
+// 	text-decoration: none;
+
+
+// 	&::before {
+// 		position: absolute;
+// 		z-index: 2;
+// 		inset: -$button-border;
+// 		border-radius: inherit;
+// 		background: linear-gradient(to right bottom, var(--slist));
+// 		mix-blend-mode: lighten;
+// 		content: ''
+// 	}
+	
+// 	&::after {
+// 		// filter: brightness(0);
+// 		content: attr(data-ico);
+// 		margin-left: 0.5rem;
+// 	}
+// }
+
+/* Mobile view (less than 768px wide) */
 @media only screen and (max-width: 600px) {
-    .container {
-        max-width: 90%;
-    }
+	.row {
+		flex-direction: column;
+		/* Stack cells vertically */
+	}
 
-    h1 {
-        font-size: 2rem;
-        font-weight: normal;
-    }
-    .phonetic {
-        font-size: 1.2rem;
-    }
+	.cell {
+		text-align: left !important;
+		flex: 1;
+		/* Both cells take full width */
+	}
 
-    h2 {
-        &.use-over-time {
-            font-size: 1.2rem;
-        }
-    }
+	.container {
+		max-width: 90%;
+	}
+
+	h1 {
+		font-size: 2rem;
+		font-weight: normal;
+	}
+
+	.phonetic {
+		font-size: 1.2rem;
+	}
+
+	h2 {
+		&.use-over-time {
+			font-size: 1.2rem;
+		}
+	}
+
+	.logo {
+		max-width: 100%;
+	}
 }

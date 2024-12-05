@@ -5,19 +5,47 @@
 <!--[if gte IE 9]><!--><html><!--<![endif]-->
   <head>
     <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>{{ page.title }}</title>
-  <meta name="author" content="name">
-  <meta name="description" content="description here">
-  <meta name="keywords" content="keywords,here">
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
-  <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
+    <meta name="author" content="matteo ugolini">
+    <meta name="description" content="description here">
+    <meta name="description" content="Matteo Ugolini is a Mobile Staff Engineer who transforms ideas into reality through innovative software solutions, creative problem-solving.">
+    <meta name="keywords" content="Matteo Ugolini, Mobile Staff Engineer, Software Development, Mobile App Development, Creative Problem-Solving, Technical Leadership, Innovative Solutions, Product Team Collaboration, Software Engineering, Visionary Thinker, Transforming Ideas, Original Concepts, Complex Challenges, Technical Expertise">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Matteo Ugolini - Mobile Staff Engineer">
+    <meta property="og:description" content="Transforming ideas into reality with innovative software solutions and creative problem-solving.">
+    <meta property="og:image" content="https://matteo.ugolini.dev/assets/images/matteo-preview.png">
+    <meta property="og:url" content="https://matteo.ugolini.dev">
+    <meta property="og:type" content="website">
+
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
   </head>
   <body>
-      <section class="container">
-        <img src="/assets/images/matteo-ugolini.svg" alt="matteo ugolini" class="logo"/>
-        {{ content }}
-    </section>
+    {{ content }}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RJY56E2M8T"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RJY56E2M8T');
+    </script>
   </body>
 </html>

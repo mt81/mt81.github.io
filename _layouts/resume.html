@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<main class="container resume">
+  <header>
+        <a href="/"><h1>MATTEO UGOLINI</h1></a>
+  </header>
+
+  {% for section in page.sections %}
+  <section id="{{ section.id }}">
+      <article class="row" id ="{{ section.id }}-title">
+        <div class="cell"><h1>{{ section.title }}</h1></div>
+        <div class="cell">{{ section.content | markdownify }}</div>
+      </article>
+      {% if section.sections %}
+      
+      <div class="subsections">
+        {% for subsection in section.sections %}
+        <article id ="{{ subsection.id }}">
+          <div class="row">
+            <div class="cell">
+              <h3>{{ subsection.title }}</h3>
+              <p>
+                <strong>{{ subsection.start }}</strong>
+                <br/>
+                <strong>{{ subsection.end }}</strong>
+              </p>
+              <p>{{ subsection.role }}</p>
+            </div>
+            <div class="cell">
+              {{ subsection.description | markdownify }}
+              {{ subsection.content | markdownify }}
+              <p><small><strong>Environment</strong></small></p>
+              {{ subsection.environment | markdownify }}
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% endif %}
+  </section>
+  {% endfor %}
+</main>
