@@ -6,28 +6,25 @@ layout: default
 ---
 
 ## dictionary
-# mat·te·o u·go·li·ni 
-/mat|tè|o/ /ù|go|li|ni/
+# mat·te·o u·go·li·ni *(He/She/Him/Theirs)* 
+/mat|tè|o/ /ù|go|li|ni/ 
 {: class="phonetic"}
 
-iOS and web creative developer
+Mobile Staff Engineer
 {: class="main-definition"}
 
-1. {:.definition} Person that transforms coffee into software 👾.
+1. {:.definition} **A professional software engineer**: Skilled in transforming coffee into software magic 👾; adept at combining technical expertise with creative problem-solving to deliver innovative solutions. 
    
-   _“an iOS developer”_
+   _"An iOS staff engineer brings ideas to life."_
    {: class="example"}
 
-2. Relating to or involving the imagination or original ideas, especially in the production of solutions to the product team problems.
-
-    "change unleashes people's creative energy"
+2. **Innovator and problem-solver**: Specializes in developing original concepts and crafting solutions to address product team challenges. Known for leveraging creativity to drive change and unlock potential.  
+   
+   _"Change unleashes people’s creative energy."_
     {: class="example"}
     - (of a person) having a good imagination and original ideas.
     
        "Homer, the creative genius of Greek epic"
        {: class="example"}
 
-## Use over time for: matteo ugolini
-{: class="use-over-time"}
-
-![Use over time for: matteo ugolini](/assets/images/use-over-time.svg)
+3. **Technical leader**: Demonstrates a blend of technical proficiency, leadership, and visionary thinking, inspiring others and guiding teams toward success. 
