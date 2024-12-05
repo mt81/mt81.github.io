@@ -4,10 +4,11 @@
 
 layout: default
 ---
+
 ## Matteo Ugolini
 {: class="hidden"}
 
-## (He/She/Him/Theirs)
+## (He/She/Him/His)
 # mat·te·o u·go·li·ni 
 /mat|tè|o/ /ù|go|li|ni/ 
 {: class="phonetic"}
