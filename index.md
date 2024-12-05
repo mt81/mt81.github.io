@@ -5,12 +5,12 @@
 layout: default
 ---
 
-## dictionary
-# mat·te·o u·go·li·ni *(He/She/Him/Theirs)* 
+## (He/She/Him/Theirs)
+# mat·te·o u·go·li·ni 
 /mat|tè|o/ /ù|go|li|ni/ 
 {: class="phonetic"}
 
-Mobile Staff Engineer
+**Mobile Staff Engineer**
 {: class="main-definition"}
 
 1. {:.definition} **A professional software engineer**: Skilled in transforming coffee into software magic 👾; adept at combining technical expertise with creative problem-solving to deliver innovative solutions. 
