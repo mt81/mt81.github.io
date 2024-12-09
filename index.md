@@ -8,10 +8,10 @@ layout: default
 ## Matteo Ugolini
 {: class="hidden"}
 
-## (He/She/Him/His)
 # mat·te·o u·go·li·ni 
 /mat|tè|o/ /ù|go|li|ni/ 
 {: class="phonetic"}
+## (He/She/Him/His)
 
 **Mobile Staff Engineer**
 {: class="main-definition"}
@@ -31,3 +31,6 @@ layout: default
        {: class="example"}
 
 3. **Technical leader**: Demonstrates a blend of technical proficiency, leadership, and visionary thinking, inspiring others and guiding teams toward success. 
+
+[![Drag Racing](assets/images/cherry-512.webp) Resume](/resume/)
+{: class="resume-button"}
