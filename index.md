@@ -16,12 +16,7 @@ layout: home
 **Technical Solution Architect**
 {: class="main-definition"}
 
-1. {:.definition} **A professional software engineer**: Skilled in transforming coffee into software magic 👾; adept at combining technical expertise with creative problem-solving to deliver innovative solutions. 
-   
-   _"An iOS staff engineer brings ideas to life."_
-   {: class="example"}
-
-2. **Innovator and problem-solver**: Specializes in developing original concepts and crafting solutions to address product team challenges. Known for leveraging creativity to drive change and unlock potential.  
+1. **Innovator and problem-solver**: Specializes in developing original concepts and crafting solutions to address product team challenges. Known for leveraging creativity to drive change and unlock potential.  
    
    _"Change unleashes people’s creative energy."_
     {: class="example"}
@@ -30,10 +25,14 @@ layout: home
        "Homer, the creative genius of Greek epic"
        {: class="example"}
 
-3. **Technical leader**: Demonstrates a blend of technical proficiency, leadership, and visionary thinking, inspiring others and guiding teams toward success. 
+2. **Technical leader**: Demonstrates a blend of technical proficiency, leadership, and visionary thinking, inspiring others and guiding teams toward success.
 
+3. {:.definition} **A professional software engineer**: Skilled in transforming coffee into software magic 👾; adept at combining technical expertise with creative problem-solving to deliver innovative solutions. 
+   
+   _"A software engineer brings ideas to life."_
+   {: class="example"}
+
+[inquries](mailto:matteo.ugolini@gmail.com)
 [![Drag Racing](assets/images/cherry-512.webp) Resume](/resume/)
 {: class="resume-button"}
 
-[inquries](mailto:matteo.ugolini@gmail.com)
-{: class="resume-button"}
