@@ -13,7 +13,7 @@ layout: home
 {: class="phonetic"}
 ## (He/She/Him/His)
 
-**Mobile Staff Engineer**
+**Technical Solution Architect**
 {: class="main-definition"}
 
 1. {:.definition} **A professional software engineer**: Skilled in transforming coffee into software magic 👾; adept at combining technical expertise with creative problem-solving to deliver innovative solutions. 
@@ -34,3 +34,5 @@ layout: home
 
 [![Drag Racing](assets/images/cherry-512.webp) Resume](/resume/)
 {: class="resume-button"}
+
+[inquries](mailto:matteo.ugolini@gmail.com)
