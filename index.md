@@ -36,3 +36,4 @@ layout: home
 {: class="resume-button"}
 
 [inquries](mailto:matteo.ugolini@gmail.com)
+{: class="resume-button"}
