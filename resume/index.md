@@ -21,9 +21,25 @@ sections:
     title: Experience
     sections:
       - id: enovlab
+        title: CBC/Radio-Canada
+        start: Since March 2025
+        end: n/a
+          -
+        role: Technical Solution Architect
+        description: |
+          As a Technical Solution Architect, I was responsible for the following:
+        content: |
+          - Contributed technical solutions to the newly formed Mobile App Platform Team for the CBC News app, focusing on cross-platform   development using Kotlin Multiplatform (KMP) across iOS, Android.
+          - Led a feasibility study and proof of concept (PoC) on Compose Multiplatform (CMP) and proposed a solution that included architecture and patterns for a unified UI kit across platforms.
+          - Worked closely with architects, developers, UX designers, and product managers to design solutions that are scalable, secure, and aligned with business goals.
+          - Wrote clear, detailed documentation and architectural guidelines to support alignment across teams and ensure long-term maintainability.
+          - Provided technical leadership while the team searched for a new lead, handling PR reviews, code quality, and CI/CD processes.
+        environment: |
+          Swift, Swift, Objective-C, Swift UI, Kotilin; KMP; Xcode, Android Studio, Figma; ; Agile methodology (Scrum)
+      - id: enovlab
         title: EnovLab (Yoop)
         start: Since January 2019
-        end: | 
+        end: March 2025 
           -
         role: Lead Mobile Developer
         description: |
