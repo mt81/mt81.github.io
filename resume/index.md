@@ -20,10 +20,10 @@ sections:
   - id: experience
     title: Experience
     sections:
-      - id: enovlab
+      - id: cbc
         title: CBC/Radio-Canada
         start: Since March 2025
-        end: n/a
+        end: -
           -
         role: Technical Solution Architect
         description: |
@@ -38,7 +38,7 @@ sections:
           Swift, Swift, Objective-C, Swift UI, Kotilin; KMP; Xcode, Android Studio, Figma; ; Agile methodology (Scrum)
       - id: enovlab
         title: EnovLab (Yoop)
-        start: Since January 2019
+        start: January 2019
         end: March 2025 
           -
         role: Lead Mobile Developer
