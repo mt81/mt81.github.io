@@ -32,7 +32,5 @@ layout: home
    _"A software engineer brings ideas to life."_
    {: class="example"}
 
-[inquries](mailto:matteo.ugolini@gmail.com)
 [![Drag Racing](assets/images/cherry-512.webp) Resume](/resume/)
 {: class="resume-button"}
-
